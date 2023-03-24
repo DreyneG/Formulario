@@ -1,0 +1,12 @@
+fieldset{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+#iproduto{
+    width: 200px;
+    height: 10px;
+    border-radius: 30px;
+}

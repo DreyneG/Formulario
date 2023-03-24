@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>Usuario</legend>
+                <label for="inome">Nome</label>
+                <input type="text" name="nmnome id="inome" class="nome" placeholder="Digite seu nome">
+                <br>
+                <label for="idate">Data de Nascimento</label>
+                <input type="date" name="ddatanas" id="idatanas" class="date">
+                <br>
+                <label for="isexo">Sexo</label>              
+                <select name="sexo" id="isexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="Feminino">feminino</option>
+                </select>
+                <br>
+                <label>Tipo:</label>
+                <br>
+                <label for="iusuario">Usuario:</label>
+                <input type="radio" name="rtipo" id="iusuario" value="Usuario" class="user">
+                
+                <label for="iadmin">Admin:</label>
+                <input type="radio" name="rtipo" id="iadmin" class="adm">
+                
+                <br>
+
+
+                <label for="iemail">E-mail</label>
+                <input type="email" name="ememail" id="iemail">
+                <br>
+                <label for="icemail">Confirme seu Email</label>
+                <input type="email" name="cemmail" id="icsenha">
+                <hr>
+                <label for="ifale">Fale Sobre Você</label>
+                <textarea name="txtafale" id="ifale" cols="30" rows="10"></textarea>
+                <input type="submit" value="Cadastrar" class="cad">
+                <input type="reset" value="Limpar" class="clear">
+                <br>
+                <input type="checkbox" name="clogado" id="iplogado">
+                <label for="iplogado">Permanecer Logado</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
